@@ -1,5 +1,5 @@
 dependencies:
  - service: backend-fastapi
-   minVersion: 0.61.0
+   minVersion: 0.62.0
    maxVersion: 0.x.x
    optional: false

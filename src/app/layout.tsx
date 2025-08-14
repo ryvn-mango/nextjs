@@ -9,7 +9,6 @@ export const metadata: Metadata = {
   description: "A simple Next.js example with FastAPI backend",
 };
 
-
 export default function RootLayout({
   children,
 }: {

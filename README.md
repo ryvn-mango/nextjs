@@ -2,6 +2,8 @@
 
 This is a production-ready Next.js frontend application designed to work with a FastAPI backend.
 
+...
+
 ## Features
 
 - Modern Next.js 14 with App Router

@@ -7,7 +7,7 @@ export function middleware(request: NextRequest) {
     !request.nextUrl.pathname.startsWith("/api/v1/generate")
   ) {
     const apiUrl = process.env.API_URL || "http://localhost:8000/api";
-    // Remove trailing slash if presentds
+    // Remove trailing slash if presents
     const baseUrl = apiUrl.endsWith("/") ? apiUrl.slice(0, -1) : apiUrl;
 
     // Get the path after /api/
